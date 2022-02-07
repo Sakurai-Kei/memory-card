@@ -1,0 +1,15 @@
+.ScoreBoard {
+  display: flex;
+  gap: 5vw;
+  border: 2px solid blue;
+  justify-content: space-evenly;
+  margin-bottom: auto;
+}
+
+.Current,
+.Best {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
