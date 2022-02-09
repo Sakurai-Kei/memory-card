@@ -1,23 +1,13 @@
 import ScoreBoard from "./ScoreBoard";
 import GameBoard from "./GameBoard";
-
-const cards = [
-  {
-    src: "First Image",
-    title: "First Title",
-  },
-  {
-    src: "Second Image",
-    title: "Second Title",
-  },
-];
+import cardData from "../cardData/cardData";
 
 function Main() {
   return (
     <div className="Main">
       <ScoreBoard />
       <div className="GameBoard">
-        <GameBoard cards={cards} />
+        <GameBoard cards={cardData} />
       </div>
     </div>
   );

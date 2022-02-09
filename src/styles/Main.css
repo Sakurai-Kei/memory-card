@@ -1,7 +1,8 @@
 .Main {
   display: flex;
-  border: 2px solid slateblue;
   flex-direction: column;
+  background-color: #1f2833;
   flex-grow: 1;
+  width: 100%;
   justify-content: center;
 }

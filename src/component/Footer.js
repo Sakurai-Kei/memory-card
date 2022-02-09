@@ -1,7 +1,7 @@
 function Footer() {
   return (
-    <div>
-      <div className="Footer">Copyright 2022 Sakurai Kei</div>
+    <div className="Footer">
+      <div>Copyright 2022 Sakurai Kei</div>
     </div>
   );
 }

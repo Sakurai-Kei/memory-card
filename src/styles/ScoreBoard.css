@@ -1,7 +1,6 @@
 .ScoreBoard {
   display: flex;
   gap: 5vw;
-  border: 2px solid blue;
   justify-content: space-evenly;
   margin-bottom: auto;
 }

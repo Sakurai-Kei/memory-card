@@ -1,5 +1,14 @@
 .CardModal {
   display: flex;
   flex-direction: column;
-  border: 2px solid red;
+}
+
+.Image {
+  height: 200px;
+  width: 200px;
+}
+
+.IMGTitle {
+  display: flex;
+  justify-content: center;
 }

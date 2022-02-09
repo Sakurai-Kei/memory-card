@@ -1,5 +1,9 @@
 .Footer {
   display: flex;
-  border: 2px solid green;
+  justify-content: center;
+  align-items: center;
+  height: 5%;
+  width: 100%;
+  border-top: 0.5vh solid #45a29e;
   margin-top: auto;
 }
