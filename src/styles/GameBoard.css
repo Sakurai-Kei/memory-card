@@ -1,5 +1,7 @@
 .GameBoard {
   display: flex;
-  gap: 3vw;
+  padding: 1%;
   margin-bottom: auto;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }

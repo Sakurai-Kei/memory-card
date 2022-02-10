@@ -1,14 +1,29 @@
 .CardModal {
   display: flex;
+  background-color: #0b0c10;
   flex-direction: column;
+  border-radius: 10%;
+  justify-content: center;
+  transition: 0.5s all;
+  margin: 1%;
+}
+
+.CardModal:hover {
+  background-color: rgba(255, 252, 65, 0.3);
+  transform: scale(1.05);
 }
 
 .Image {
-  height: 200px;
-  width: 200px;
+  height: 75%;
+  width: 100%;
+  max-height: 300px;
+  max-width: 300px;
+  border-radius: 10%;
+  margin-bottom: auto;
 }
 
 .IMGTitle {
   display: flex;
+  margin-bottom: auto;
   justify-content: center;
 }

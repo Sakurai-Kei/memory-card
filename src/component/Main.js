@@ -1,13 +1,13 @@
 import ScoreBoard from "./ScoreBoard";
 import GameBoard from "./GameBoard";
-import cardData from "../cardData/cardData";
+import cardModule from "../cardData/cardData";
 
 function Main() {
   return (
     <div className="Main">
       <ScoreBoard />
       <div className="GameBoard">
-        <GameBoard cards={cardData} />
+        <GameBoard cards={cardModule()} />
       </div>
     </div>
   );
