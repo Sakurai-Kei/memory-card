@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/memory-card/static/css/main.e78d76e4.css",
+    "main.js": "/memory-card/static/js/main.381f8a02.js",
+    "static/media/fourchenaultIMG.png": "/memory-card/static/media/fourchenaultIMG.4a88332c7673a3cb52df.png",
+    "static/media/zenosIMG.png": "/memory-card/static/media/zenosIMG.e5c9b65d5554513558b6.png",
+    "static/media/meteionIMG.png": "/memory-card/static/media/meteionIMG.36e7e4fc3cd46addf064.png",
+    "static/media/hythlodaeusIMG.png": "/memory-card/static/media/hythlodaeusIMG.45daaded5ce59af89e5b.png",
+    "static/media/venatIMG.jpg": "/memory-card/static/media/venatIMG.6d6c95440b7c3d2bcb85.jpg",
+    "static/media/thancredIMG.png": "/memory-card/static/media/thancredIMG.4a8738967dfabd643465.png",
+    "static/media/alisaieIMG.jpg": "/memory-card/static/media/alisaieIMG.679429b376ef5d6225db.jpg",
+    "static/media/wolIMG.jpeg": "/memory-card/static/media/wolIMG.33a9b46f0cbe43b14b6c.jpeg",
+    "static/media/asahiIMG.jpeg": "/memory-card/static/media/asahiIMG.d97ec3fd9cb4ba0d1ead.jpeg",
+    "static/media/alphinaudIMG.jpg": "/memory-card/static/media/alphinaudIMG.40648f4218c8882cca52.jpg",
+    "static/media/estinienIMG.jpg": "/memory-card/static/media/estinienIMG.1fdaa5c0ef4af5c23f6d.jpg",
+    "static/media/hadesIMG.jpeg": "/memory-card/static/media/hadesIMG.df89d37e8ba1a5284430.jpeg",
+    "static/media/uriangerIMG.jpg": "/memory-card/static/media/uriangerIMG.7dd7dfdbbfa039f05887.jpg",
+    "static/media/yshtolaIMG.jpg": "/memory-card/static/media/yshtolaIMG.550b0eeeccdd2b572780.jpg",
+    "static/media/grahaIMG.jpg": "/memory-card/static/media/grahaIMG.ce493685dc76c788e1a9.jpg",
+    "index.html": "/memory-card/index.html",
+    "main.e78d76e4.css.map": "/memory-card/static/css/main.e78d76e4.css.map",
+    "main.381f8a02.js.map": "/memory-card/static/js/main.381f8a02.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e78d76e4.css",
+    "static/js/main.381f8a02.js"
+  ]
+}
