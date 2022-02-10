@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import Header from "./component/Header";
 import Main from "./component/Main";
 import Footer from "./component/Footer";
