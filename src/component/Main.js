@@ -1,5 +1,4 @@
 /* eslint-disable react/jsx-no-bind */
-/* eslint-disable no-unused-vars */
 import { useEffect, useState } from "react";
 import ScoreBoard from "./ScoreBoard";
 import GameBoard from "./GameBoard";
@@ -14,19 +13,30 @@ function Main() {
     const result = chosenCards.filter(
       (card) => card === modal.nativeEvent.path[1].id
     );
-    return result;
+    if (result.length !== 0) {
+      return false;
+    }
+    return true;
+  }
+
+  function updateScore(currentScore, bestScore) {
+    if (currentScore >= bestScore) {
+      setBest(currentScore);
+    }
   }
 
   function chooseCard(modal) {
-    setChosenCards(chosenCards.concat([modal.nativeEvent.path[1].id]));
-  }
-
-  function updateScore() {
-    // placeholder
+    if (isDuplicate(modal) === true) {
+      setChosenCards(chosenCards.concat([modal.nativeEvent.path[1].id]));
+      setCurrent(current + 1);
+    } else {
+      setCurrent(0);
+      setChosenCards([]);
+    }
   }
 
   useEffect(() => {
-    console.log(chosenCards);
+    updateScore(current, best);
   });
 
   return (

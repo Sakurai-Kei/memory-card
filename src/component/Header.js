@@ -1,5 +1,5 @@
 function Header() {
-  return <div className="Header">MEMORY CARD GAME</div>;
+  return <div className="Header">FFXIV Memory Card GAME</div>;
 }
 
 export default Header;
